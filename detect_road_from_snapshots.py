@@ -28,6 +28,11 @@ for i in range(1, 11):
         if area > 50 and len(approx) == 4:
             cv.drawContours(img_color, [contour], 0, (255, 0, 0), 2)
 
+            # moments
+            M = cv.moments(contour)
+            cx = int(M['m10']/M['m00'])
+            cy = int(M['m01']/M['m00'])
+            cv.circle(img_color, (cx, cy), 5, (0, 0, 255), -1)
 
 c_hstack1 = color_list[0].copy()
 b_hstack1 = binary_list[0].copy()
