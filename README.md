@@ -5,3 +5,6 @@ RAPA Project
 
 <br><br>
 <img src = 'Jetbot_Nvidia.jpg'>
+
+## Development environment
+Python, Opencv, SSH, Nvidia Jetbot
