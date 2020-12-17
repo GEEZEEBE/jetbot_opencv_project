@@ -1,7 +1,6 @@
-# jetbot_opencv_project
-RAPA Project
+# jetbot_opencv_project_____RAPA
 
-## Nvidia Jetbot Tracking the Road with Camera by OpenCV
+### Nvidia Jetbot Tracking the Road with Camera by OpenCV
 
 <br><br>
 <img src = 'Jetbot_Nvidia.jpg'>
