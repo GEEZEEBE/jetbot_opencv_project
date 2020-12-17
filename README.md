@@ -1,8 +1,7 @@
 # jetbot_opencv_project
 RAPA Project
 
-
-## 코드 구조 
+## Nvidia Jetbot Tracking the Road with Camera by OpenCV
 
 <br><br>
 <img src = 'Jetbot_Nvidia.jpg'>
