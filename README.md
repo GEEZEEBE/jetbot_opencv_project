@@ -6,7 +6,7 @@
 <img src = 'Jetbot_Nvidia.jpg'>
 
 ## Development environment
-Python, Opencv, SSH, Nvidia Jetbot
+- Python, Opencv, SSH, Nvidia Jetbot
 
 ## Contents
 - Detecting Lane and Tracking the Road
