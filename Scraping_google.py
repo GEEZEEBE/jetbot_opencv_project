@@ -13,7 +13,7 @@ def google_image(keyword, dir):
                  'print_urls': False,
                  'no_directory' : True,
                  'output_directory': dir,
-                 'chromedriver':'/home/sunshine/Documents/Develop/Project/scraping/chromedriver'
+                 'chromedriver':'/home/cloudera/Documents/Develop/chromedriver' # chromedriver 위치
                  }
     response.download(arguments)
 
@@ -21,7 +21,7 @@ def google_image(keyword, dir):
 def test(keywords):
     cwd = os.getcwd()
     for keyword in keywords:
-        dir = cwd + f"/{keyword}"
+        dir = cwd + f"/{keyword}" #파일 저장 폴더명
 
         if not os.path.exists(dir):
             os.mkdir(dir)
@@ -29,7 +29,7 @@ def test(keywords):
 
 
 def main():
-    keywords = ['circle red sign', 'road crosswalk view'] ## if needed change keywords
+    keywords = ['circle red sign', 'crosswalk'] #검색할 이미지 (구글 검색어), 변경/단독 혹은 나열 가능
     test(keywords)
 
 main()

@@ -4,7 +4,7 @@ import cv2 as cv
 import os
 
 cwd = os.getcwd()
-output_dir = cwd + "/crop" ## output dir 
+output_dir = cwd + "/crop" #잘라낸 이미지 저장 폴더
 if not os.path.exists(output_dir):
     os.mkdir(output_dir)
     
@@ -42,6 +42,7 @@ def Crop(event, x, y, flags, param):
 input_dir = cwd + "/circle red sign/" ## input dir
 files = os.listdir(input_dir)
 for file in files:
+    print(file)
     file_name = file.split(".")[0]
     image = cv.imread(input_dir + file)
     cv.imshow('image', image)
@@ -49,3 +50,4 @@ for file in files:
     cv.waitKey()
     cv.destroyAllWindows()
 
+           
